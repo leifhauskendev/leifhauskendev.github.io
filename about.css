@@ -1,0 +1,97 @@
+body {
+    font-family: helvetica;
+    text-align: center;
+    background: linear-gradient(-45deg, #ff0000, #8f8f8f, #ffffff, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*#backgroundabout {
+    background-color: slategray;
+}*/
+
+/* #date {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+} */
+
+#headerstyling {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: black;
+    display: inline-flex;
+    text-shadow: 1px 1px black;
+    color: black;
+}
+
+h1 {
+    /*background-image: url("https://img.freepik.com/free-photo/old-gray-cement-wall-backgrounds_34552-324.jpg?size=626&ext=jpg");*/
+    background: linear-gradient(-45deg, #ff0000, #8f8f8f, #ffffff, #000000);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+}
+
+.topnav {
+    background-color: rgba(112, 128, 144, 0);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background: linear-gradient(-45deg, #ff0000, #8f8f8f, #ffffff, #000000);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+    color: silver;
+    text-shadow: 1px 1px black;
+  }
+  
+  /* Add a color to the active/current link 
+  .topnav a.active {
+    background-color: rgba(112, 128, 144, 0);
+    color: black;
+  }*/
+
+  img {
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      margin-left: 60px;
+      margin-bottom: 60px;
+      border-style: outset;
+      border-width: 5px;
+      border-color: black;
+      border-radius: 10px;
+  }
+
+  #AboutMeParagraph {
+      font-size: 25px;
+      color: black;
+      margin-right: 60px;
+  }

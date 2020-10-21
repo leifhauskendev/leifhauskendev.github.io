@@ -1,0 +1,83 @@
+body {
+    font-family: helvetica;
+    text-align: center;
+    background: linear-gradient(-45deg, #ff0000, #8f8f8f, #ffffff, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+    /*background-image: url("https://img.freepik.com/free-photo/old-gray-cement-wall-backgrounds_34552-324.jpg?size=626&ext=jpg");*/
+    background: linear-gradient(-45deg, #ff0000, #8f8f8f, #ffffff, #000000);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+}
+
+#date {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#headerstyling {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-width: 2.5px;
+    border-style: solid;
+    display: inline-flex;
+    border-color: black;
+    text-shadow: 1px 1px black;
+    color: black;
+}
+
+/*#centered {
+    
+}*/
+
+/*#background {
+    background-color: slategray;
+}*/
+
+.topnav {
+    background-color: rgba(112, 132, 153, 0);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background: linear-gradient(-45deg, #ff0000, #8f8f8f, #ffffff, #000000);
+    background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+    color: silver;
+    text-shadow: 1px 1px black;
+  }
+  
+  /* Add a color to the active/current link 
+  .topnav a.active {
+    background-color: rgba(112, 128, 144, 0);
+    color: black;
+  }*/
